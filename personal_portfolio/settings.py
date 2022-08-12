@@ -138,3 +138,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # except ImportError:
 #     print("Looks like no local file. You must be on production")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
