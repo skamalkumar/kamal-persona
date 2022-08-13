@@ -14,9 +14,9 @@ body {
     font-size: 6rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 555px) {
     #hometext {
-        font-size: 4rem;
+        font-size: 2rem;
     }
     #blogdetailtitle {
         font-size: 5rem;
