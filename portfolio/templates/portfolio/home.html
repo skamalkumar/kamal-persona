@@ -4,11 +4,20 @@
 
 {% block content %}
 
-<div class="row justify-content-center my-3">
-  <div class="col-5">
-    <img src="{% static 'portfolio/photo.jpg' %}" class="img-fluid">
+<div class="photo">
+  <div class="row justify-content-center my-3">
+    <div class="col-5">
+      <p align='center'><img id="photo" src="{% static 'portfolio/photo.jpg' %}" width='200' height='100' class="img-fluid"></p>
+    </div>
   </div>
 </div>
+
+<style>
+.img-fluid {
+  border-radius: 50px;
+}
+</style>
+
 
 <div class="row justify-content-center mb-3">
   <div class="col-md-9 text-center">

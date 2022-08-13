@@ -14,11 +14,15 @@ body {
     font-size: 6rem;
 }
 
-@media (min-width: 555px) {
+@media (min-width: 250px) {
     #hometext {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     #blogdetailtitle {
         font-size: 5rem;
     }
+}
+
+img {
+  border-radius: 50%;
 }
