@@ -25,7 +25,7 @@ SECRET_KEY = '7fea)agzt#$+opj(@%htikxso#%(b-6os8n56a9uw*o9&yjm75'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -138,9 +138,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'var', 'static')
 
 #STATIC_ROOT = "/home/cfedeploy/webapps/cfehome_static_root/"
 
-MEDIA_URL = "/media/images/"
+MEDIA_URL = "/media/"
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "media/images/")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 #
